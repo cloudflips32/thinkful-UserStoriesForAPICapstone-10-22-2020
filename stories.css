@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+header, footer {
+  background-color: #000;
+  color: #FFF;
+  text-align: center;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  margin: 30px auto 30px auto;
+}
+
+table {
+  margin: 15px;
+}
+
+table, tr, td {
+  border: 1px solid #000;
+}
+
+table tr td {
+  text-align: center;
+}
+
+table tr {
+  padding: 10px;
+}
